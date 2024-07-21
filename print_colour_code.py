@@ -5,7 +5,7 @@ def print_colour_code_table():
     table=[['Pair number','Major colour','Minor colour']]
     pair_number=1
     row=[]
-    # complexity to be reduced
+    # complexity to be reduced, current complexity is 4
     for major_colour in MAJOR_COLORS:
         for minor_colour in MINOR_COLORS:
             row.append(pair_number)
