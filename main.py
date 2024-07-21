@@ -1,6 +1,6 @@
 
-# MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
-# MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
+MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
+MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
 
 import subfunctions.py
 def color_pair_to_string(major_color, minor_color):
