@@ -10,7 +10,7 @@ def print_colour_code_table():
             row.append(pair_number)
             row.append(major_colour)
             row.append(minor_colour)
-            table.append(l)
+            table.append(row)
             pair_number+=1
             row=[]
             print(table)
