@@ -1,4 +1,5 @@
 from derive_colour_or_pair_number import *
+from print_colour_code import *
 def color_pair_to_string(major_color, minor_color):
   return f'{major_color} {minor_color}'
 
@@ -20,4 +21,5 @@ if __name__ == '__main__':
   test_pair_to_number('Black', 'Orange', 12)
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
+  print_table()
   print('Done :)')
