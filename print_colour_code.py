@@ -3,7 +3,7 @@ MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
 
 def print_colour_code_table():
     table=[['Pair number','Major colour','Minor colour']]
-    pair_number=1
+    pair_number=()
     row=[]
     for major_colour in MAJOR_COLORS:
         for minor_colour in MINOR_COLORS:
