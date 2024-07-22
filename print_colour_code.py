@@ -14,7 +14,6 @@ def print_colour_code_table():
             table.append(row)
             pair_number+=1
             row=[]
-            print(table)
     for row in table:
         print('--------------------------------------------')
         print('| {:^11} | {:^12} | {:^12} |'.format(*row))
