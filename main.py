@@ -2,10 +2,15 @@ MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
 MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
 
 def print_colour_code_table():
+    table=create_colour_code_table()
+    for row in table:
+        print('--------------------------------------------')
+        print('| {:^11} | {:^12} | {:^12} |'.format(*row))
+    
+def create_colour_code_table():
     table=[['Pair number','Major colour','Minor colour']]
     pair_number=1
     row=[]
-    # complexity to be reduced, current complexity is 4
     for major_colour in MAJOR_COLORS:
         for minor_colour in MINOR_COLORS:
             row.append(pair_number)
@@ -14,8 +19,6 @@ def print_colour_code_table():
             table.append(row)
             pair_number+=1
             row=[]
-    for row in table:
-        print('--------------------------------------------')
-        print('| {:^11} | {:^12} | {:^12} |'.format(*row))
+
     
     
